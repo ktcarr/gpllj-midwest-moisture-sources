@@ -161,39 +161,40 @@ cd ./scripts
 ## Notes & acknowledgments  
 The ERA-5 data can be downloaded from the Copernicus Climate Change Service's Climate Data Store (\url{https://cds.climate.copernicus.eu}). Navy topography data obtained from https://iridl.ldeo.columbia.edu/SOURCES/.WORLDBATH/. Code for the moisture tracking model was adapted from Ruud Van der Ent's original implementation and can be accessed at \url{https://github.com/ktcarr/WAM2layers_ERA5}.
 
-## Results
+## Some pre-computed results
+See the paper for high-resolution versions.
 
 ### Water vapor and wind
 <p float="left">
-  <img src="https://github.com/ktcarr/gpllj-moisture-tracking/blob/main/results/fluxes_spatial.png" width="750" />
+  <img src="./readme_figs/fluxes_spatial.png" width="500" />
 </p>
 
 ### Precipitation covariance with GPLLJ
 <p float="left">
-  <img src="https://github.com/ktcarr/gpllj-moisture-tracking/blob/main/results/precip_regression.png" width="750" />
+  <img src="./readme_figs/precip_regression.png" width="500" />
 </p>
 
 ### Moisture flux in the GPLLJ region
 <p float="left">
- <img src="https://github.com/ktcarr/gpllj-moisture-tracking/blob/main/results/fluxes_gpllj.png "width="750" />
+ <img src="./readme_figs/fluxes_gpllj.png "width="500" />
 </p>
 
 ### Moisture sources (spatial map, seasonal timescale)
 <p float="left">
- <img src="https://github.com/ktcarr/gpllj-moisture-tracking/blob/main/results/moisture_sources_seasonal_spatial.png" width="750" />
+ <img src="./readme_figs/moisture_sources_seasonal_spatial.png" width="500" />
 </p>
 
 ### Moisture sources (aggregated totals)
 <p float="left">
-  <img src="https://github.com/ktcarr/gpllj-moisture-tracking/blob/main/results/moisture_sources_seasonal_agg.png" width="500" />
+  <img src="./readme_figs/moisture_sources_seasonal_agg.png" width="500" />
 </p>
 
 ### Synoptic moisture sources
 <p float="left">
-  <img src="https://github.com/ktcarr/gpllj-moisture-tracking/blob/main/results/synoptic_composite_v850.png" width="750" />
+  <img src="./readme_figs/synoptic_composite_v850.png" width="750" />
 </p>
 
 ### Trend over time
 <p float="left">
-     <img src="https://github.com/ktcarr/gpllj-moisture-tracking/blob/main/results/trends_over_time_v.png" width="750" />
+     <img src="./readme_figs/trends_over_time_v.png" width="750" />
 </p>
