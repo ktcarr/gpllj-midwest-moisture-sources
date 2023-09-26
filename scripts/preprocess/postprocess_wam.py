@@ -75,9 +75,6 @@ if __name__ == "__main__":
     import os
     import shutil
 
-    ## filepath where WAM data is stored
-    wam_fp = f"{src.params.DATA_RAW_FP}/WAM_output"
-
     ## create temporary folder for intermediate results
     temp_fp = f"{src.params.DATA_RAW_FP}/temp"
     if os.path.isdir(temp_fp):
@@ -91,7 +88,7 @@ if __name__ == "__main__":
 
         for vartype in ["fluxes", "storage"]:
             ## Load data
-            data = xr.open_dataset(f"{wam_fp}/{vartype}_daily_{year}.nc")
+            data = xr.open_dataset(f"{os.environ['WAM_FP']}/{vartype}_daily_{year}.nc")
 
             # Trim to smaller area, and convert from m^3 to m
             data_trim = trim(data).compute()

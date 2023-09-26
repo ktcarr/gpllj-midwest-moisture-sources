@@ -22,6 +22,7 @@ DATA_RAW_FP = f"{environ['DATA_FP']}/raw"
 DATA_CONST_FP = f"{environ['DATA_FP']}/constants"
 DATA_PREPPED_FP = f"{environ['DATA_FP']}/prepped"
 SAVE_FP = f"{environ['SAVE_FP']}/{season}"
+WAM_FP = f"{environ['WAM_FP']}"
 
 ## Plot resolution and scaling
 DPI = 1200  # set to 1200 for publication-quality
