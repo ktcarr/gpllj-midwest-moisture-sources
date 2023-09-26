@@ -27,7 +27,7 @@ This repository contains the code used to produce figures in the paper "Impact o
 ## Instructions
 
 ### Set up virtual environment environments
-1. Navigate to the project's home directory, ```./gpllj-moisture-tracking```
+1. Navigate to the project's home directory, ```./gpllj-midwest-moisture-sources```
 2. Specify location for saving data and results (directories must already exist). E.g.,
 ```
 DATA_FP=/vortexfs1/scratch/kcarr/gpllj-moisture-tracking_data
@@ -53,9 +53,9 @@ mamba env config vars set DATA_FP=${DATA_FP} SAVE_FP=${SAVE_FP} WAM_FP=${WAM_FP}
 
 5b. Owing to python package conflicts, a second virtual environment is needed to compute the Helmholtz decomposition (of vertically-integrated water vapour transport). To install this environment, use:
 ```
-mamba create --prefix ./envs./env_windspharm
+mamba create --prefix ./envs/env_windspharm
 conda activate ./envs/env_windspharm
-mamba env update --file env_windspharm.yml
+mamba env update --file ./envs/env_windspharm.yml
 pip install -e .
 mamba env config vars set DATA_FP=${DATA_FP} SAVE_FP=${SAVE_FP} WAM_FP=${WAM_FP}
 ```
@@ -120,10 +120,6 @@ sbatch ./merge_era5.sh ${DATA_FP}/raw
 ```
 2. Obtain constants with ```sbatch ./download_constants.sh```
 3. Obtain PRISM and GLEAM data with: ```sbatch get_EP_comps.sh```
-4. Obtain moisture tracking output data with:
-```
-cp -r ${WAM_FP} ${DATA_FP}/raw
-```
 
 ### Data pre-processing
 0. Navigate back to project's root directory:
