@@ -124,7 +124,7 @@ sbatch ./merge_era5.sh ${DATA_FP}/raw
 ### Data pre-processing
 0. Navigate back to project's root directory:
 ```
-cd ~/gpllj-moisture-tracking
+cd ~/gpllj-midwest-moisture-sources
 ```
 
 1. Compute Helmholtz decomposition of IVT:
