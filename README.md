@@ -191,10 +191,10 @@ See the paper for high-resolution versions.
 
 ### Synoptic moisture sources
 <p float="left">
-  <img src="./readme_figs/synoptic_composite_v850.png" width="750" />
+  <img src="./readme_figs/synoptic_composite_v850.png" width="500" />
 </p>
 
 ### Trend over time
 <p float="left">
-     <img src="./readme_figs/trends_over_time_v.png" width="750" />
+     <img src="./readme_figs/trends_over_time_v.png" width="500" />
 </p>
