@@ -1,5 +1,5 @@
 # gpllj-midwest-moisture-sources
-This repository contains the code used to produce figures in the paper "Impact of atmospheric circulation variability on U.S. Midwest moisture sources".
+This repository contains the code used to produce figures for "Impact of atmospheric circulation variability on U.S. Midwest moisture sources" by Carr and Ummenhofer (2023), accepted for publication in _Journal of Climate_. Link to paper: [https://doi.org/10.1175/JCLI-D-23-0178.1](https://doi.org/10.1175/JCLI-D-23-0178.1).
 
 ## File structure
 ```
