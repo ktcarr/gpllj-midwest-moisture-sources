@@ -159,7 +159,7 @@ cd ./scripts
 ```
 
 ## Notes & acknowledgments  
-The ERA-5 data can be downloaded from the Copernicus Climate Change Service's Climate Data Store (\url{https://cds.climate.copernicus.eu}). Navy topography data obtained from https://iridl.ldeo.columbia.edu/SOURCES/.WORLDBATH/. Code for the moisture tracking model was adapted from Ruud Van der Ent's original implementation and can be accessed at \url{https://github.com/ktcarr/WAM2layers_ERA5}.
+The ERA-5 data can be downloaded from the Copernicus Climate Change Service's Climate Data Store (https://cds.climate.copernicus.eu). Navy topography data obtained from https://iridl.ldeo.columbia.edu/SOURCES/.WORLDBATH/. Code for the moisture tracking model can be accessed at https://github.com/ktcarr/WAM2layers_ERA5 and was adapted from Ruud van der Ent's original implementation (https://github.com/ruudvdent/WAM2layersPython). Those interested in applying the moisture tracking model should use the actively-maintained version, located here: https://github.com/WAM2layers/WAM2layers.
 
 ## Some pre-computed results
 See the paper for high-resolution versions.
