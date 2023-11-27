@@ -101,7 +101,7 @@ def save(fig, fname, is_supp=True):
     # about intersections.
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
-        fig.savefig(f"{save_fp}/{fname}.svg", format="svg")
+        fig.savefig(f"{save_fp}/{fname}.pdf", format="pdf")
     return
 
 

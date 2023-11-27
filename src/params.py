@@ -53,6 +53,7 @@ def set_plot_style():
 
     ## Manually change some parameters
     mpl.rcParams["figure.dpi"] = DPI  # set figure resolution (dots per inch)
+    mpl.rcParams["pdf.fonttype"] = 42
     mpl.rcParams["hatch.linewidth"] = 0.15 * PLOT_SCALE
     mpl.rcParams["axes.labelsize"] = 9 * PLOT_SCALE
     mpl.rcParams["axes.titlesize"] = 11 * PLOT_SCALE
